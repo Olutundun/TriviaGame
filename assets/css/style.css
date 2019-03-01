@@ -1,0 +1,145 @@
+body {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+ul {
+    text-align: center;
+}
+
+
+#title {
+    font-family: 'Special Elite', cursive;
+    color: #ff0000;
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+
+#start:hover,
+#next:hover {
+    cursor: pointer;
+}
+
+#answers:hover {
+    cursor: pointer;
+}
+
+#results p {
+    font-family: 'Special Elite', cursive;
+    color: #ffff00;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+
+.container {
+    opacity: 0.9;
+}
+
+.lead {
+    font-family: 'Shadows Into Light', cursive;
+    color: #daa520;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.time-left {
+    font-family: 'Shadows Into Light';
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.question {
+    font-family: 'Shadows Into Light', cursive;
+    color: #ffff00;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.option-one {
+    margin-bottom: 5px;
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 25%;
+    font-weight: bold;
+}
+
+.option-one:hover {
+    background-color: #ff4500;
+}
+
+.option-two {
+    margin-bottom: 5px;
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 25%;
+    font-weight: bold;
+
+}
+
+.option-two:hover {
+    background-color: #00008b;
+}
+
+.option-three {
+    margin-bottom: 5px;
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 25%;
+    font-weight: bold;
+}
+
+.option-three:hover {
+    background-color: #006460;
+}
+
+.option-four {
+    margin-bottom: 5px;
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 25%;
+    font-weight: bold;
+}
+
+.option-four:hover {
+    background-color: #daa520;
+}
+
+.score {
+    font-family: 'Special Elite', cursive;
+    color: #ffffff;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 8px;
+}

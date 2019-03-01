@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Anime Trivia</title>
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Felipa|Shadows+Into+Light|Special+Elite" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container jumbotron bg-dark">
+        <h1 class="text-center" id="title">ANIME TRIVIA.</h1>
+        <h2 class="time-left"></h2>
+        <h3 class="question"></h3><br>
+        <div id="answers">
+            <p class="option-one"></p>
+            <p class="option-two"></p>
+            <p class="option-three"></p>
+            <p class="option-four"></p>
+        </div>
+        <div id="results">
+            <h1 class="score"></h1>
+            <p class="correct"></p>
+            <p class="incorrect"></p>
+            <p class="unanswered"></p>
+        </div>
+        <p class="lead text-center">How well do you know Anime? You have thirty seconds to answer the mulitiple
+            choice questions. Click the start button to begin. Kill it!! </p>
+        <hr class="my-4">
+        <br>
+        <button class="btn-warning btn-lg" id="start">START</button>
+        <button class="btn-primary btn-lg" id="restart" style="display: none;">RESET</button>
+    </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
