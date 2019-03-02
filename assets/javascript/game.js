@@ -1,5 +1,5 @@
 //global variables
-var countDown = 10;
+var countDown = 30;
 var correctAnswer = 0;
 var wrongAnswer = 0;
 var unAnswered = 0;
