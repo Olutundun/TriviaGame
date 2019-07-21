@@ -9,6 +9,7 @@ var currentAnswer;
 var timeHandler;
 
 //click start button to start the game
+
 function startGame() {
   clearTimeout(timeHandler);
   $("#start").on("click", function () {
